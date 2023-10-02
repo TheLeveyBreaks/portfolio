@@ -1,4 +1,4 @@
-# Aspiring Data Engineer
+# Senior Data Analyst
 
 #### Technical Skills: Python, SQL, Snowflake, AWS, Tableau, Unreal Engine 5 (Blueprint coding)
 
@@ -41,5 +41,17 @@ product performance for top accounts across Western Europe.
 
 
 ### Personal Projects
-Best Pokemon Party (Origional 151)
-- 
+Best Pokemon Party (Scope: Origional 151)
+Developed a logic that simulated 1000 Pokemon battles with a party of 6 Pokemon using **Python**. The following steps were taken to achieve this tasks:
+1. Create a webscraper that pulled data from the national pokedex website (https://www.serebii.net/pokemon/nationalpokedex.shtml).
+2. Since the Pokemon types are listed as image files on the website, seperate **Python** code was used to pull each Pokemon's type into a json format, then appended to the _pokemon_stats_ data frame.
+3. Developed code that randomly selected and pokemon parties based upopn types, and limited it to the origional 151 Pokemon.
+4. Pull, and create a 2D Matrix that was used for Pokemon attacks/types and the impact of those moves based upon pokemon type. For example, If a water and fire type pokemon battled, the water type would be supirior as water beats fire, therefor 2x it's attack.
+5. With the 2D matrix, create a function based upon the inputs from the national pokedex website.
+
+For simplicity, the equation below was used to determin overall pokemon damage taken in a simulated battle
+- /assets/pokemon_dmg_calc.md
+
+
+
+
