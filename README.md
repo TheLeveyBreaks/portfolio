@@ -50,7 +50,7 @@ Developed a logic that simulated 1000 Pokemon battles with a party of 6 Pokemon 
 5. With the 2D matrix, create a function based upon the inputs from the national pokedex website.
 
 For simplicity, the equation below was used to determin overall pokemon damage taken in a simulated battle
-- /assets/pokemon_dmg_calc.md
+
 
 
 
